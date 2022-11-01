@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+      integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <main class="container-fluid heroImg d-flex align-items-center justify-content-center">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-10 bigBox">
+          <div class="row myText d-flex justify-content-around">
+            <div class="col-3"><span>FILTER BY:</span></div>
+            <div class="col-2 filterBy" onclick="drawHeavy()"><span>HEAVY</span></div>
+            <div class="col-2 filterBy" onclick="drawPriority()"><span>PRIORITY</span></div>
+            <div class="col-2 filterBy" onclick="drawFragile()"><span>FRAGILE</span></div>
+          </div>
+          <div class="row" id="packages">
+            <!-- INSERT PACKAGES HERE -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </body>
+
+  <script src="app.js"></script>
+
+</html>
